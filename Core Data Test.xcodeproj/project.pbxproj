@@ -11,6 +11,8 @@
 		D429274419606D3B0055FA0A /* Core_Data_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D429274219606D3B0055FA0A /* Core_Data_Test.xcdatamodeld */; };
 		D429274619606D3B0055FA0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D429274519606D3B0055FA0A /* Images.xcassets */; };
 		D429275219606D3B0055FA0A /* Core_Data_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D429275119606D3B0055FA0A /* Core_Data_TestTests.swift */; };
+		D429275C19606DC90055FA0A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D429275B19606DC90055FA0A /* Storyboard.storyboard */; };
+		D429275E19606E5D0055FA0A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D429275D19606E5D0055FA0A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		D429274B19606D3B0055FA0A /* Core Data TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D429275019606D3B0055FA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D429275119606D3B0055FA0A /* Core_Data_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core_Data_TestTests.swift; sourceTree = "<group>"; };
+		D429275B19606DC90055FA0A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D429275D19606E5D0055FA0A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				D429274519606D3B0055FA0A /* Images.xcassets */,
 				D429274219606D3B0055FA0A /* Core_Data_Test.xcdatamodeld */,
 				D429273E19606D3B0055FA0A /* Supporting Files */,
+				D429275B19606DC90055FA0A /* Storyboard.storyboard */,
+				D429275D19606E5D0055FA0A /* MainViewController.swift */,
 			);
 			path = "Core Data Test";
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D429274619606D3B0055FA0A /* Images.xcassets in Resources */,
+				D429275C19606DC90055FA0A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D429275E19606E5D0055FA0A /* MainViewController.swift in Sources */,
 				D429274419606D3B0055FA0A /* Core_Data_Test.xcdatamodeld in Sources */,
 				D429274119606D3B0055FA0A /* AppDelegate.swift in Sources */,
 			);
@@ -309,6 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Core Data Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Core Data Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
